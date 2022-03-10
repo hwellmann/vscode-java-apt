@@ -13,7 +13,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>org.immutables</groupId>
@@ -45,7 +44,6 @@
 	<profiles>
 		<profile>
 			<id>jdt</id>
-			<!-- uncomment the following to suppress compiler errors in Eclipse -->
 			<activation>
 				<property>
 					<name>m2e.version</name> 
@@ -81,7 +79,6 @@
 									<encoding>UTF-8</encoding>
 								</configuration>
 							</execution>
-
 						</executions>
 					</plugin>
 					<plugin>
